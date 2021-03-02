@@ -18,7 +18,6 @@ function checkShift()
 }
 
 function checkLunch(){
-    printf("Hello");
         $user = $_SESSION['UID'];
         $SID = $_SESSION['shiftID'];
         $link = mysqli_connect("timeclockapplication.mariadb.database.azure.com", "Collin@timeclockapplication", "Chickinnugg26", "timeclockapplication", "3306");
@@ -41,7 +40,7 @@ function allowPunch(){
     $link = mysqli_connect("timeclockapplication.mariadb.database.azure.com", "Collin@timeclockapplication", "Chickinnugg26", "timeclockapplication", "3306");
     $insert = "INSERT INTO Breaks (EmpID, ShiftID, StartTime, Type) VALUES ('$user', '$SID', '$startTime', '$type')";
     $result = mysqli_query($link, $insert);
-    header("location: index.html");
+    //header("location: index.html");
 
 }
 
