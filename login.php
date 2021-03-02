@@ -9,7 +9,7 @@ $password = trim($_POST['pwd']);
 $Error = "Incorrect username or password.";
 $message = "Login failed";
 
-$link = mysqli_connect("timeclockapplication.mariadb.database.azure.com", "Collin@timeclockapplication", "Chickinnugg2624", "timeclockapplication", "3306");
+$link = mysqli_connect("timeclockapplication.mariadb.database.azure.com", "Collin@timeclockapplication", "Chickinnugg26", "timeclockapplication", "3306");
 
 $query = "SELECT * FROM User";
 
