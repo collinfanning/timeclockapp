@@ -11,7 +11,7 @@ $message = "Login failed";
 
 $link = mysqli_connect("timeclockapplication.mariadb.database.azure.com", "Collin@timeclockapplication", "Chickinnugg26", "timeclockapplication", "3306");
 
-$query = "SELECT * FROM User";
+$query = "SELECT * FROM User WHERE Name='$username'";
 
 $result = mysqli_query($link, $query);
 //$rows = mysqli_num_rows($result);

@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="327235d2-8e51-4ae7-967f-c3d476dd907f" name="Default Changelist" comment="Updating every connection to the database">
-      <change beforePath="$PROJECT_DIR$/startLunch.php" beforeDir="false" afterPath="$PROJECT_DIR$/startLunch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.php" beforeDir="false" afterPath="$PROJECT_DIR$/report.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614628269327</updated>
       <workItem from="1614628270456" duration="121000" />
-      <workItem from="1614629048669" duration="23278000" />
+      <workItem from="1614629048669" duration="27746000" />
     </task>
     <task id="LOCAL-00001" summary="trying to connect to the azure database">
       <created>1614713985568</created>
@@ -78,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614714310254</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updating every connection to the database">
+      <created>1614714521985</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614714521985</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,14 +119,16 @@
       <screen x="0" y="25" width="1388" height="875" />
     </state>
     <state x="573" y="171" key="Github.UntrackedFilesDialog/0.25.1388.875@0.25.1388.875" timestamp="1614708297714" />
-    <state x="623" y="390" key="NewPhpFileDialog" timestamp="1614647676477">
-      <screen x="0" y="25" width="1387" height="875" />
+    <state x="623" y="390" key="NewPhpFileDialog" timestamp="1614717691921">
+      <screen x="0" y="25" width="1388" height="875" />
     </state>
     <state x="622" y="390" key="NewPhpFileDialog/0.25.1385.875@0.25.1385.875" timestamp="1614633428462" />
     <state x="623" y="390" key="NewPhpFileDialog/0.25.1387.875@0.25.1387.875" timestamp="1614647676477" />
-    <state x="406" y="199" key="Vcs.Push.Dialog.v2" timestamp="1614714313839">
-      <screen x="0" y="25" width="1392" height="875" />
+    <state x="623" y="390" key="NewPhpFileDialog/0.25.1388.875@0.25.1388.875" timestamp="1614717691921" />
+    <state x="406" y="199" key="Vcs.Push.Dialog.v2" timestamp="1614714655570">
+      <screen x="0" y="25" width="1391" height="875" />
     </state>
+    <state x="406" y="199" key="Vcs.Push.Dialog.v2/0.25.1391.875@0.25.1391.875" timestamp="1614714655570" />
     <state x="406" y="199" key="Vcs.Push.Dialog.v2/0.25.1392.875@0.25.1392.875" timestamp="1614714313839" />
   </component>
 </project>
