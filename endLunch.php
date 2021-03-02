@@ -8,7 +8,7 @@ function checkLunch()
     $SID = $_SESSION['shiftID'];
     $type = "Lunch";
 
-    $link = mysqli_connect("localhost", "root", "", "timeclockapp");
+    $link = mysqli_connect("timeclockapplication.mariadb.database.azure.com", "Collin@timeclockapplication", "Chickinnugg26", "timeclockapplication", "3306");
     $query = "SELECT * FROM Breaks WHERE EmpID='$user' AND ShiftID='$SID' AND Type='$type'";
     $result = mysqli_query($link, $query);
     $status = "Complete";

@@ -5,7 +5,7 @@ date_default_timezone_set('America/New_York');
 function checkShift(){
     $user = $_SESSION['UID'];
     $name= $_SESSION['name'];
-    $link = mysqli_connect("localhost", "root", "", "timeclockapp");
+    $link = mysqli_connect("timeclockapplication.mariadb.database.azure.com", "Collin@timeclockapplication", "Chickinnugg26", "timeclockapplication", "3306");
     $query = "SELECT * FROM Shifts WHERE EmpID='$user'";
     $result = mysqli_query($link, $query);
     $rows = mysqli_num_rows($result);
@@ -24,7 +24,7 @@ function checkShift(){
 function checkOthers(){
     $user = $_SESSION['UID'];
     $SID = $_SESSION['shiftID'];
-    $link = mysqli_connect("localhost", "root", "", "timeclockapp");
+    $link = mysqli_connect("timeclockapplication.mariadb.database.azure.com", "Collin@timeclockapplication", "Chickinnugg26", "timeclockapplication", "3306");
     $query = "SELECT * FROM Breaks WHERE EmpID='$user' AND ShiftID='$SID'";
     $result = mysqli_query($link, $query);
     $status="Complete";

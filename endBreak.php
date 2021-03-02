@@ -7,7 +7,7 @@ function checkBreak(){
     $SID = $_SESSION['shiftID'];
     $type = "Break";
 
-    $link = mysqli_connect("timeclockapplication.mariadb.database.azure.com", "Collin@timeclockapplication", "Chickinnugg2624", "timeclockapplication", "3306");
+    $link = mysqli_connect("timeclockapplication.mariadb.database.azure.com", "Collin@timeclockapplication", "Chickinnugg26", "timeclockapplication", "3306");
     $query = "SELECT * FROM Breaks WHERE EmpID='$user' AND ShiftID='$SID' AND Type='$type'";
     $result = mysqli_query($link, $query);
     $status="Complete";

@@ -7,7 +7,7 @@ function checkNotStarted(){
     $name= $_SESSION['name'];
     $today= date("Y-m-d");
     $startTime = date("Y-m-d H:i:s");
-    $link = mysqli_connect("localhost", "root", "", "timeclockapp");
+    $link = mysqli_connect("timeclockapplication.mariadb.database.azure.com", "Collin@timeclockapplication", "Chickinnugg26", "timeclockapplication", "3306");
     $query = "SELECT * FROM Shifts WHERE EmpID='$user'";
     $result = mysqli_query($link, $query);
     //$rows = mysqli_num_rows($result);
